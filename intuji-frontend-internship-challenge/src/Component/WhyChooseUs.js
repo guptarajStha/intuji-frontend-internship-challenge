@@ -10,7 +10,7 @@ import pattern from "../assets/2.png";
 import tick from "../assets/tick.png";
 const WhyChooseUs = () => {
   return (
-    <div className="w-[80%] m-auto pt-[60px] pb-[60px] flex gap-40">
+    <div className="w-[80%] m-auto pt-[60px] pb-[60px] flex gap-40 ">
       <div className="w-[531px] h-[480px] bg-[#DFF6FF] rounded-[20px] relative  z-10 flex flex-col justify-center items-center gap-[25px]">
         <img
           src={ellipse1}
