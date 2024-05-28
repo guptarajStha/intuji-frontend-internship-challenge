@@ -45,7 +45,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <hr />
+      <hr className="bg-[#E5E5EA] h-[2px]" />
       <div className="w-full flex justify-center items-center p-[40px]">Copyright @ AR Shakir 2022. All Rights Reserved.</div>
     </div>
   );
