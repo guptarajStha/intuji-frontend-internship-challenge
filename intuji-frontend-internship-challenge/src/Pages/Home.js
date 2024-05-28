@@ -7,6 +7,7 @@ import WhyChooseUs2 from "../Component/WhyChooseUs2";
 import Features from "../Component/Features";
 import Testimonials from "../Component/Testimonials";
 import Stats from "../Component/Stats";
+import RecentBlog from "../Component/RecentBlog";
 
 const Home = () => {
   return (
@@ -21,6 +22,11 @@ const Home = () => {
       <Features />
       <Testimonials />
       <Stats />
+      <div className="w-full bg-[#FAFBFF] py-[80px]">
+        <div className="w-[80%] m-auto">
+          <RecentBlog />
+        </div>
+      </div>
     </div>
   );
 };
