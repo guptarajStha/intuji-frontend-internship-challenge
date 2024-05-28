@@ -2,8 +2,8 @@ import React from "react";
 
 const WalletInsights = () => {
   return (
-    <div className="w-[80%] m-auto flex justify-between pb-[20px]">
-      <div className="w-[378px] h-[380px] p-4 bg-[#FFFFFF] border-[1px] border-[#DBE4E9] rounded-[20px] flex justify-center relative">
+    <div className="w-[80%] m-auto flex flex-col gap-10 md:grid md:grid-cols-2 lg:flex lg:flex-row  justify-between pb-[20px]">
+      <div className="lg:w-[30%]   px-4 pt-4 pb-10 bg-[#FFFFFF] border-[1px] border-[#DBE4E9] rounded-[20px] flex justify-center relative">
         <h2 className="font-extrabold text-[22px] absolute left-6">01</h2>
         <div className="flex flex-col justify-center items-center text-center w-[270px] mt-[90px]">
           <div className="flex flex-col gap-1">
@@ -19,7 +19,7 @@ const WalletInsights = () => {
           </p>
         </div>
       </div>
-      <div className="w-[378px] h-[380px] p-4 bg-[#FFFFFF] border-[1px] border-[#DBE4E9] rounded-[20px] flex justify-center relative">
+      <div className="lg:w-[30%]   px-4 pt-4 pb-10 bg-[#FFFFFF] border-[1px] border-[#DBE4E9] rounded-[20px] flex justify-center relative">
         <h2 className="font-extrabold text-[22px] absolute left-6">02</h2>
         <div className="flex flex-col justify-center items-center text-center w-[270px] mt-[90px]">
           <div className="flex flex-col gap-1">
@@ -35,7 +35,7 @@ const WalletInsights = () => {
           </p>
         </div>
       </div>
-      <div className="w-[378px] h-[380px] p-4 bg-[#FFFFFF] border-[1px] border-[#DBE4E9] rounded-[20px] flex justify-center relative">
+      <div className="lg:w-[30%]   px-4 pt-4 pb-10 bg-[#FFFFFF] border-[1px] border-[#DBE4E9] rounded-[20px] flex justify-center relative">
         <h2 className="font-extrabold text-[22px] absolute left-6">03</h2>
         <div className="flex flex-col justify-center items-center text-center w-[270px] mt-[90px]">
           <div className="flex flex-col gap-1">
