@@ -12,8 +12,8 @@ const Discover = () => {
         <img src={d3} alt="" className=" absolute right-20 top-10" />
         <img src={d4} alt="" className=" absolute top-12 -ml-[46vw]" />
         <img src={d5} alt="" className=" absolute bottom-10 left-20" />
-      <div className="w-[75%] text-center justify-center flex flex-col items-center gap-20">
-        <h1 className="text-[56px] font-extrabold">Discover a better way to manage spendings</h1>
+      <div className="w-[75%] text-center justify-center flex flex-col items-center gap-20 z-50">
+        <h1 className="text-[56px] font-extrabold ">Discover a better way to manage spendings</h1>
         <button className="bg-[#FF7F5C] px-10 py-5 rounded-[10px]">Get Started Now</button>
       </div>
     </div>
