@@ -3,9 +3,9 @@ import symbol from '../assets/“.png'
 
 const SectionHeading = () => {
   return (
-    <div className="w-[80%] m-auto flex justify-between pt-[60px] mb-[60px] items-center">
+    <div className="w-[80%] m-auto flex justify-between pt-[60px] mb-[60px] items-center gap-60">
       <div>
-        <h1 className=" font-extrabold text-[56px]">
+        <h1 className=" font-extrabold text-[58px]">
           Automated portfolio tracking
         </h1>
         <p className="text-[16px] font-normal w-[448px]">

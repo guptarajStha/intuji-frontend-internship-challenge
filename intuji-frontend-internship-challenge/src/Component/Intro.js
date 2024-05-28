@@ -28,13 +28,13 @@ const Intro = () => {
           </div>
         </div>
           <div className="flex mt-[3vw] gap-[24px]">
-            <div className=" flex items-center">
+            <div className=" flex items-center gap-2">
               <div className="w-[18px] h-[18px] bg-[#3734A9] rounded-full flex justify-center items-center">
                 <img className="w-[8px] h-[6px]" src={tick} alt="" />
               </div>
               <p>Free Register</p>
             </div>
-            <div className=" flex items-center">
+            <div className=" flex items-center gap-2">
               <div className="w-[18px] h-[18px] bg-[#3734A9] rounded-full flex justify-center items-center">
                 <img className="w-[8px] h-[6px]" src={tick} alt="" />
               </div>

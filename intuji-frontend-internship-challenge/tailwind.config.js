@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontWeight:{
         '700':'700'
+      },
+      fontFamily:{
+        'Manrope':'Manrope'
       }
     },
   },
