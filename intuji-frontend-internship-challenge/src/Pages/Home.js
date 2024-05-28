@@ -9,6 +9,7 @@ import Testimonials from "../Component/Testimonials";
 import Stats from "../Component/Stats";
 import RecentBlog from "../Component/RecentBlog";
 import FrequentQuestion from "../Component/FrequentQuestion";
+import Discover from "../Component/Discover";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         <div className="w-[80%] m-auto">
           <RecentBlog />
           <FrequentQuestion />
+          <Discover />
         </div>
       </div>
     </div>
