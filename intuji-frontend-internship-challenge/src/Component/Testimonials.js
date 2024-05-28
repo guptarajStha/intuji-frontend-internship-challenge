@@ -18,8 +18,8 @@ const Testimonials = () => {
             <img src={imagee} alt="" className="w-[20%] h-[10%]" />
           </div>
         </div>
-        <div className="flex justify-between gap-10 mt-[80px]">
-          <div className="w-[50%] bg-white border-[1px]  border-[#CFCFCF] rounded-[10px] relative flex p-4">
+        <div className="flex flex-col xl:flex-row justify-between gap-10 mt-[80px]">
+          <div className="xl:w-1/2 bg-white border-[1px]  border-[#CFCFCF] rounded-[10px] relative flex p-4">
             <div className="w-[57px] h-[57px] rounded-full bg-black flex justify-center items-center absolute -top-7 left-8">
               <img src={symbol} alt="" />
             </div>
@@ -35,7 +35,7 @@ const Testimonials = () => {
             </div>
             <img src={girl} alt="" className="w-[30%]" />
           </div>
-          <div className="w-[50%] bg-white border-[1px]  border-[#CFCFCF] rounded-[10px] relative flex p-4">
+          <div className="xl:w-1/2 bg-white border-[1px]  border-[#CFCFCF] rounded-[10px] relative flex p-4">
             <div className="w-[57px] h-[57px] rounded-full bg-black flex justify-center items-center absolute -top-7 left-8">
               <img src={symbol} alt="" />
             </div>
