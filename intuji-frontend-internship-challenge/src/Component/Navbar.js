@@ -69,7 +69,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`flex  flex-col justify-center items-center gap-2 absolute bg-[#C9E7F2]  rounded-b-[10px] bg-opacity-90 ${
+        className={`flex lg:hidden flex-col justify-center items-center gap-2 absolute bg-[#C9E7F2]  rounded-b-[10px] bg-opacity-90 ${
           handleHamBurger
             ? "transition-all ease-in-out duration-500"
             : "top-[-1000px] transition-all ease-in-out duration-500"
