@@ -10,6 +10,7 @@ import Stats from "../Component/Stats";
 import RecentBlog from "../Component/RecentBlog";
 import FrequentQuestion from "../Component/FrequentQuestion";
 import Discover from "../Component/Discover";
+import Footer from "../Component/Footer";
 
 const Home = () => {
   return (
@@ -24,11 +25,12 @@ const Home = () => {
       <Features />
       <Testimonials />
       <Stats />
-      <div className="w-full bg-[#FAFBFF] py-[80px]">
+      <div className="w-full bg-[#FAFBFF] pt-[80px]">
         <div className="w-[80%] m-auto">
           <RecentBlog />
           <FrequentQuestion />
           <Discover />
+          <Footer />
         </div>
       </div>
     </div>
