@@ -5,6 +5,7 @@ import WalletInsights from "../Component/WalletInsights";
 import WhyChooseUs from "../Component/WhyChooseUs";
 import WhyChooseUs2 from "../Component/WhyChooseUs2";
 import Features from "../Component/Features";
+import Testimonials from "../Component/Testimonials";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <WhyChooseUs2 />
       </div>
       <Features />
+      <Testimonials />
     </div>
   );
 };
