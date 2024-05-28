@@ -6,6 +6,7 @@ import WhyChooseUs from "../Component/WhyChooseUs";
 import WhyChooseUs2 from "../Component/WhyChooseUs2";
 import Features from "../Component/Features";
 import Testimonials from "../Component/Testimonials";
+import Stats from "../Component/Stats";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       </div>
       <Features />
       <Testimonials />
+      <Stats />
     </div>
   );
 };
