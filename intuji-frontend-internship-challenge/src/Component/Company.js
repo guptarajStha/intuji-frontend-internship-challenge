@@ -10,10 +10,10 @@ import protonet from '../assets/protonet.png'
 
 const Company = () => {
   return (
-    <div className='bg-[#F5F6F8] z-10 w-full h-[239px] relative '>
+    <div className='bg-[#F5F6F8] z-10 w-full py-[80px] relative '>
     <div className="w-[80%] h-full gap-[36px] m-auto flex flex-col justify-center items-center">
         <p className='text-[22px] font-medium'>Over 32k+ software  businesses growing with AR Shakir.</p>
-        <div className='flex gap-[49px]'>
+        <div className='grid grid-cols-2  md:grid-cols-3 gap-10 xl:flex xl:justify-between w-full'>
             <img src={openzeppelin} alt="" />
             <img src={oracle} alt="" />
             <img src={morpheus} alt="" />
