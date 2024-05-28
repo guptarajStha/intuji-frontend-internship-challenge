@@ -22,7 +22,7 @@ const RecentBlog = () => {
           </div>
           <img src={group_image} alt="" className="w-[30%]" />
         </div>
-        <div className=" mt-[80px]  gap-6 flex justify-between w-full">
+        <div className=" mt-[80px] hidden  gap-6 lg:flex justify-between w-full">
           <div className="flex flex-col justify-between mt-[60px]  gap-6  w-1/3 ">
             <div className="pl-6 flex flex-col gap-2 justify-center ">
               <h2 className="text-[16px] font-bold">BEST PRACTICES</h2>
