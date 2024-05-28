@@ -4,6 +4,7 @@ import SectionHeading from "../Component/SectionHeading";
 import WalletInsights from "../Component/WalletInsights";
 import WhyChooseUs from "../Component/WhyChooseUs";
 import WhyChooseUs2 from "../Component/WhyChooseUs2";
+import Features from "../Component/Features";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <WhyChooseUs />
         <WhyChooseUs2 />
       </div>
+      <Features />
     </div>
   );
 };
