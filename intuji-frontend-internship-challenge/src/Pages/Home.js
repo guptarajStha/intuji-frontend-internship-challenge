@@ -8,6 +8,7 @@ import Features from "../Component/Features";
 import Testimonials from "../Component/Testimonials";
 import Stats from "../Component/Stats";
 import RecentBlog from "../Component/RecentBlog";
+import FrequentQuestion from "../Component/FrequentQuestion";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <div className="w-full bg-[#FAFBFF] py-[80px]">
         <div className="w-[80%] m-auto">
           <RecentBlog />
+          <FrequentQuestion />
         </div>
       </div>
     </div>
