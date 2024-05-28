@@ -9,8 +9,8 @@ const Features = () => {
           We so opinion friends me message as delight. Whole front do of plate
           heard oh ought. His defective nor convinced residence own.
         </p>
-        <div className="flex justify-around  w-full mt-10">
-          <div className="w-[378px] h-[380px] p-4 bg-[#FFFFFF] border-[1px] border-[#ABC8D2] rounded-[20px] flex justify-start relative">
+        <div className="grid md:grid-cols-2 lg:flex justify-between gap-6  w-full mt-10 ">
+          <div className="lg:w-1/3 pb-8 p-4 bg-[#FFFFFF] border-[1px] border-[#ABC8D2] rounded-[20px] flex justify-start relative">
             <div className="flex flex-col justify-start text-start w-[270px] py-[40px] px-[10px]">
               <div className="flex flex-col gap-1">
                 <div className="w-[39px] h-[10px] bg-black"></div>
@@ -25,7 +25,7 @@ const Features = () => {
               </p>
             </div>
           </div>
-          <div className="w-[378px] h-[380px] p-4 bg-[#FFFFFF] border-[1px] border-[#ABC8D2] rounded-[20px] flex justify-start relative">
+          <div className="lg:w-1/3 pb-8 p-4 bg-[#FFFFFF] border-[1px] border-[#ABC8D2] rounded-[20px] flex justify-start relative">
             <div className="flex flex-col justify-start text-start w-[270px] py-[40px] px-[10px]">
               <div className="flex flex-col gap-1">
                 <div className="w-[39px] h-[10px] bg-black"></div>
@@ -40,11 +40,11 @@ const Features = () => {
               </p>
             </div>
           </div>
-          <div className=" flex flex-col justify-between">
-            <div className="font-extrabold text-[22px] bg-white rounded-[10px] border-[1px] border-[#ABC8D2] w-[380px] h-[150px] flex items-center pl-8">
+          <div className=" lg:w-1/3 flex flex-col justify-between gap-6">
+            <div className="font-extrabold text-[22px] bg-white rounded-[10px] border-[1px] border-[#ABC8D2] w-full h-[150px] flex items-center pl-8">
               Merits behind on afraid or warmly
             </div>
-            <div className="font-extrabold text-[22px] bg-white rounded-[10px] border-[1px] border-[#ABC8D2] items-center flex w-[380px] h-[150px]  pl-8">
+            <div className="font-extrabold text-[22px] bg-white rounded-[10px] border-[1px] border-[#ABC8D2] items-center flex w-full h-[150px]  pl-8 z-40">
             Believing neglected so so allowance existence
             </div>
           </div>
