@@ -8,7 +8,7 @@ const AboveFold = () => {
   return (
     <div>
       <div
-        className="bg-cover w-full h-[110vh]"
+        className="bg-cover w-full  pb-[80px]"
         style={{ backgroundImage: `url(${bg_image})` }}
       >
         <Navbar />
