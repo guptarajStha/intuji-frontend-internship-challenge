@@ -3,7 +3,7 @@ import symbol from '../assets/“.png'
 
 const SectionHeading = () => {
   return (
-    <div className="w-[80%] m-auto flex justify-between mt-[60px] mb-[60px] items-center">
+    <div className="w-[80%] m-auto flex justify-between pt-[60px] mb-[60px] items-center">
       <div>
         <h1 className=" font-extrabold text-[56px]">
           Automated portfolio tracking
