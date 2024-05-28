@@ -6,7 +6,7 @@ import chart from '../assets/graph.png'
 const WhyChooseUs2 = () => {
   return (
     <div className="w-[80%] m-auto flex justify-between mt-[80px]">
-      <div className="flex flex-col justify-between gap-4 w-[max(50%)]">
+      <div className="flex flex-col justify-between gap-4 xl:w-[max(50%)]">
         <h2 className="font-bold text-[#3734A9] text-[14px]">
           WHY TO CHOOSE US
         </h2>
@@ -29,7 +29,7 @@ const WhyChooseUs2 = () => {
         </div>
       </div>
       </div>
-      <div className="bg-[#DBF1FA] w-[max(40%)] rounded-[20px] relative">
+      <div className="bg-[#DBF1FA] w-[40%] hidden xl:flex rounded-[20px] relative">
         <img src={pattern} alt="" className=" absolute -left-12 top-16" />
         <img src={hand_with_card} alt="" className=" absolute bottom-0" />
         <img src={chart} alt="" className=" absolute -left-28 shadow-xl bottom-10" />

@@ -11,7 +11,7 @@ import tick from "../assets/tick.png";
 const WhyChooseUs = () => {
   return (
     <div className="w-[80%] m-auto pt-[60px] pb-[60px] flex gap-40 ">
-      <div className="w-[531px] h-[480px] bg-[#DFF6FF] rounded-[20px] relative  z-10 flex flex-col justify-center items-center gap-[25px]">
+      <div className="w-[531px] h-[480px] hidden bg-[#DFF6FF] rounded-[20px] relative  z-10 lg:flex flex-col justify-center items-center gap-[25px]">
         <img
           src={ellipse1}
           alt=""
@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between">
+      <div className="flex flex-col justify-between gap-6">
         <h2 className="font-bold text-[#3734A9] text-[14px]">WHY TO CHOOSE US</h2>
         <h1 className="font-extrabold text-[50px]">Track your payments on the go with the best way possible</h1>
         <p className="text-[18px] text-[#505887]">
