@@ -49,12 +49,12 @@ const Intro = () => {
       <div className=" absolute bottom-0 -left-[20px]">
         <img className="w-[100px] h-[90px]" src={pattern1} alt="" />
       </div>
-      <div className=" absolute top-[200px] -right-6  md:-right-3 lg:right-0">
-        <img className="w-[60%] md:w-[80%] lg:w-[100%]" src={pattern2} alt="" />
-      </div>
-      <div className="absolute bottom-5 right-0 md:-bottom-8 md:-right-[30px] lg:-bottom-[160px] lg:-right-2 xl:-bottom-[220px] xl:right-0">
-        <img className="w-[10%] md:w-[80%] lg:w-[95%] xl:w-[100%]" src={pattern3} alt="" />
-      </div>
+      {/* <div className=" absolute top-[200px] -right-6  md:-right-3 lg:right-2  hidden lg:flex bg-green-400"> */}
+        <img className="absolute right-0" src={pattern2} alt="" />
+      {/* </div> */}
+      {/* <div className="absolute bottom-5 right-0 md:-bottom-8 md:-right-[30px] lg:-bottom-[160px] lg:-right-2 xl:-bottom-[220px] xl:right-0"> */}
+        <img className="absolute bottom-0 xl:-bottom-16 right-0 hidden md:flex" src={pattern3} alt="" />
+      {/* </div> */}
     </div>
   );
 };
