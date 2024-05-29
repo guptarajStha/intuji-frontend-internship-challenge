@@ -18,11 +18,11 @@ const Home = () => {
       <AboveFold />
       <div className="bg-[#FAFBFF] w-full relative z-10 mb-[60px]">
         <SectionHeading />
-        {/* <WalletInsights />
+        <WalletInsights />
         <WhyChooseUs />
-        <WhyChooseUs2 /> */}
+        <WhyChooseUs2 />
       </div>
-      {/* <Features />
+      <Features />
       <Testimonials />
       <Stats />
       <div className="w-full bg-[#FAFBFF] pt-[80px]">
@@ -32,7 +32,7 @@ const Home = () => {
           <Discover />
           <Footer />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
