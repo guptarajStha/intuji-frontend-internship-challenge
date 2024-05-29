@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="text-[16px] font-medium text-[#757095]">
               Finance helps companies manage payments easily.
             </p>
-            <div className="flex text-[#3734A9] gap-4 text-[20px]">
+            <div className=" grid grid-cols-2 items-center sm:flex text-[#3734A9] gap-4 text-[20px]">
               <FaLinkedinIn className=" cursor-pointer " />
               <BiLogoMessenger className=" cursor-pointer " />
               <FaTwitter className=" cursor-pointer " />
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="bg-[#E5E5EA] h-[2px]" />
-      <div className="w-full flex justify-center items-center p-[40px]">
+      <div className="w-full flex justify-center items-center p-[40px] text-[10px] sm:text-[18px]">
         Copyright @ AR Shakir 2022. All Rights Reserved.
       </div>
     </div>

@@ -19,7 +19,7 @@ const Features = () => {
                   <div className="w-[39px] h-[10px] bg-black"></div>
                   <div className="w-[50px] h-[30px] bg-[#FF7F5C]"></div>
                 </div>
-                <h2 className="text-[30px] font-extrabold mt-[34px]">
+                <h2 className="text-[18px] lg:text-[30px] font-extrabold mt-[34px]">
                   Really boy law county she unable her sister
                 </h2>
                 <p className=" font-normal text-[14px] text-[#757095] bg-gradient-to-[#64607D] mt-[17px]">
@@ -34,7 +34,7 @@ const Features = () => {
                   <div className="w-[39px] h-[10px] bg-black"></div>
                   <div className="w-[50px] h-[30px] bg-[#3734A9]"></div>
                 </div>
-                <h2 className="text-[30px] font-extrabold mt-[34px]">
+                <h2 className="text-[18px] lg:text-[30px] font-extrabold mt-[34px]">
                   Among sex are leave law built now
                 </h2>
                 <p className=" font-normal text-[14px] text-[#757095] bg-gradient-to-[#64607D] mt-[17px]">

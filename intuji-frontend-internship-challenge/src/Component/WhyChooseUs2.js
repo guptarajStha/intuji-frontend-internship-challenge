@@ -18,7 +18,7 @@ const WhyChooseUs2 = () => {
           heard oh ought. His defective nor convinced residence own.
         </p>
         <div className=" font-semibold text-[15px] mt-20">
-        <div className="w-[400px] h-[175px] bg-[#C4C4C4] justify-center flex flex-col p-6 rounded-[20px] relative" >
+        <div className="md:w-[400px] h-[175px] bg-[#C4C4C4] justify-center flex flex-col p-6 rounded-[20px] relative" >
           <div className="w-[44px] h-[44px] flex justify-center items-center rounded-full bg-black text-white absolute -top-5"><img src={symbol} alt="" /></div>
           <p className="mt-3">
             Wise busy past both park when an ye no. Nay likely her length sooner

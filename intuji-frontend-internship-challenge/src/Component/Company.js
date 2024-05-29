@@ -13,7 +13,7 @@ const Company = () => {
     <div className='bg-[#F5F6F8] z-10 w-full py-[80px] relative '>
     <div className="w-[80%] h-full gap-[36px] m-auto flex flex-col justify-center items-center">
         <p className='text-[14px] sm:text-[18px] xl:text-[22px] font-medium'>Over 32k+ software  businesses growing with AR Shakir.</p>
-        <div className='grid grid-cols-2  md:grid-cols-3 gap-8 xl:flex xl:justify-between w-full items-center'>
+        <div className='grid grid-cols-2  md:grid-cols-3 gap-7 xl:flex xl:justify-between w-full items-center'>
             <img src={openzeppelin} alt="" />
             <img src={oracle} alt="" />
             <img src={morpheus} alt="" />

@@ -73,7 +73,7 @@ const Navbar = () => {
           handleHamBurger
             ? "transition-all ease-in-out duration-500"
             : "top-[-1000px] transition-all ease-in-out duration-500"
-        } top-28  right-4  z-40 p-10 `}
+        } top-28  right-4  z-40 p-8 `}
         
       >
         <ul className="flex flex-col gap-2 justify-center items-center">
