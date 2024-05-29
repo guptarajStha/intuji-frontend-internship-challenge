@@ -6,21 +6,21 @@ import blog2 from '../assets/blog2.png'
 import blog3 from '../assets/blog3.png'
 const RecentBlog = () => {
   return (
-    <div>
-      <h1 className="font-extrabold text-[71px]">Recent Blog</h1>
+    <div className="pb-[20px]">
+      <h1 className="font-extrabold text-[30px] sm:text-[45px] md:text-[60px] xl:text-[71px]">Recent Blog</h1>
       <div className="p-2">
         <div className="flex justify-between mt-[60px] ">
           <div className="flex flex-col gap-2 w-[40%] justify-center ">
-            <h2 className="text-[16px] font-bold">BEST PRACTICES</h2>
-            <h2 className="text-[29px] font-bold">
+            <h2 className="text-[14px] lg:text-[16px] font-bold">BEST PRACTICES</h2>
+            <h2 className="text-[18px] md:text-[20px] lg:text-[29px] font-bold">
               In design active temper be uneasy. Thirty for remove plenty
               regard.
             </h2>
-            <button className=" text-[16px] font-bold flex gap-2 items-center mt-[30px]">
+            <button className="text-[14px] lg:text-[16px] font-bold flex gap-2 items-center mt-[30px]">
               Read More <FaArrowRightLong />
             </button>
           </div>
-          <img src={group_image} alt="" className="w-[30%]" />
+          <img src={group_image} alt="" className="w-[40%]" />
         </div>
         <div className=" mt-[80px] hidden  gap-6 lg:flex justify-between w-full">
           <div className="flex flex-col justify-between mt-[60px]  gap-6  w-1/3 ">
