@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/intuji-frontend-internship-challenge/static/css/main.c8f1d76c.css",
+    "main.js": "/intuji-frontend-internship-challenge/static/js/main.fa3cd1de.js",
+    "static/media/Rectangle_158_.png": "/intuji-frontend-internship-challenge/static/media/Rectangle_158_.150c1a7009156fd821d2.png",
+    "static/media/Group_686.png": "/intuji-frontend-internship-challenge/static/media/Group_686.182e108d60d11cdc5292.png",
+    "static/media/group_image.png": "/intuji-frontend-internship-challenge/static/media/group_image.2d39572985a59ad55bae.png",
+    "static/media/single_hand.png": "/intuji-frontend-internship-challenge/static/media/single_hand.4fa1ec132cb17e4ab5bb.png",
+    "static/media/girl.png": "/intuji-frontend-internship-challenge/static/media/girl.5cb60c26459fcdc28eea.png",
+    "static/media/blog1.png": "/intuji-frontend-internship-challenge/static/media/blog1.c0568c026fbca43979a9.png",
+    "static/media/blog2.png": "/intuji-frontend-internship-challenge/static/media/blog2.d3e4c93c2c13f782ef13.png",
+    "static/media/blog3.png": "/intuji-frontend-internship-challenge/static/media/blog3.90233741f69ed1942b72.png",
+    "static/media/graph.png": "/intuji-frontend-internship-challenge/static/media/graph.bac4921960f8c57acc30.png",
+    "index.html": "/intuji-frontend-internship-challenge/index.html",
+    "main.c8f1d76c.css.map": "/intuji-frontend-internship-challenge/static/css/main.c8f1d76c.css.map",
+    "main.fa3cd1de.js.map": "/intuji-frontend-internship-challenge/static/js/main.fa3cd1de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8f1d76c.css",
+    "static/js/main.fa3cd1de.js"
+  ]
+}
