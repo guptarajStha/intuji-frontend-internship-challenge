@@ -10,10 +10,10 @@ const WhyChooseUs2 = () => {
         <h2 className="font-bold text-[#3734A9] text-[14px]">
           WHY TO CHOOSE US
         </h2>
-        <h1 className="font-extrabold text-[50px]">
+        <h1 className="font-extrabold text-[40px] xl:text-[50px]">
           Save money with proper transaction
         </h1>
-        <p className="text-[18px] text-[#505887]">
+        <p className="text-[16px] lg:text-[18px] text-[#505887]">
           We so opinion friends me message as delight. Whole front do of plate
           heard oh ought. His defective nor convinced residence own.
         </p>

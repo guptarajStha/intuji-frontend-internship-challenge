@@ -11,7 +11,7 @@ import tick from "../assets/tick.png";
 const WhyChooseUs = () => {
   return (
     <div className="w-[80%] m-auto pt-[60px] pb-[60px] flex gap-40 ">
-      <div className="w-[531px] h-[480px] hidden bg-[#DFF6FF] rounded-[20px] relative  z-10 lg:flex flex-col justify-center items-center gap-[25px]">
+      <div className=" hidden bg-[#DFF6FF] rounded-[20px] relative  z-10 lg:flex flex-col justify-center items-center gap-[25px]">
         <img
           src={ellipse1}
           alt=""
@@ -28,55 +28,61 @@ const WhyChooseUs = () => {
           className=" absolute left-0 bottom-0 z-0 rounded-bl-[20px]"
         />
         <img src={pattern} alt="" className=" absolute -right-2 -top-5 z-20" />
-        <div className="flex justify-center items-center w-full z-10 relative">
-          <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
-            <img src={image1} alt="" />
-            <div className="flex flex-col">
-              <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
-                +$28,900
+        <div className=" w-full h-[85%] flex flex-col justify-between">
+          <div className="flex justify-center items-center w-full z-10 relative">
+            <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
+              <img src={image1} alt="" />
+              <div className="flex flex-col">
+                <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
+                  +$28,900
+                </div>
+                <p>Received from Michael V</p>
               </div>
-              <p>Received from Michael V</p>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center items-center w-full z-10 relative ml-[300px]">
-          <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
-            <img src={image2} alt="" />
-            <div className="flex flex-col">
-              <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
-                +$28,900
+          <div className="flex justify-center items-center w-full z-10 relative ml-[150px]">
+            <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
+              <img src={image2} alt="" />
+              <div className="flex flex-col">
+                <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
+                  +$28,900
+                </div>
+                <p>Received from Michael V</p>
               </div>
-              <p>Received from Michael V</p>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center items-center w-full z-10 relative ml-[200px]">
-          <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
-            <img src={image3} alt="" />
-            <div className="flex flex-col">
-              <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
-                +$28,900
+          <div className="flex justify-center items-center w-full z-10 relative ml-[100px]">
+            <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
+              <img src={image3} alt="" />
+              <div className="flex flex-col">
+                <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
+                  +$28,900
+                </div>
+                <p>Received from Michael V</p>
               </div>
-              <p>Received from Michael V</p>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center items-center w-full z-10 relative">
-          <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
-            <img src={image4} alt="" />
-            <div className="flex flex-col">
-              <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
-                +$28,900
+          <div className="flex justify-center items-center w-full z-10 relative">
+            <div className="w-[80%] flex bg-[#FFFFFF] rounded-[10px] h-[80px] items-center p-6 gap-4 shadow-lg">
+              <img src={image4} alt="" />
+              <div className="flex flex-col">
+                <div className=" bg-[#ebebf6] w-[86px] text-[#3734A9] px-2 rounded-full">
+                  +$28,900
+                </div>
+                <p>Received from Michael V</p>
               </div>
-              <p>Received from Michael V</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-between gap-6">
-        <h2 className="font-bold text-[#3734A9] text-[14px]">WHY TO CHOOSE US</h2>
-        <h1 className="font-extrabold text-[50px]">Track your payments on the go with the best way possible</h1>
-        <p className="text-[18px] text-[#505887]">
+      <div className="flex lg:w-[40%] flex-col justify-between gap-6">
+        <h2 className="font-bold text-[#3734A9] text-[14px]">
+          WHY TO CHOOSE US
+        </h2>
+        <h1 className="font-extrabold xl:font-extrabold lg:text-[30px] lg:tracking-tighter text-[30px]  xl:text-[45px]">
+          Track your payments on the go with the best way possible
+        </h1>
+        <p className=" text-[16px] xl:text-[18px] text-[#505887]">
           Indulgence way everything joy alteration boisterous the attachment.
           Party we years to order allow asked of.
         </p>
@@ -91,7 +97,9 @@ const WhyChooseUs = () => {
           <div className="w-[24px] h-[24px] bg-[#FDBC64] rounded-full flex justify-center items-center">
             <img className="w-[8px] h-[6px]" src={tick} alt="" />
           </div>
-          <p className="text-[#505887] text-[19px]">Deoposit funds easily, securlity</p>
+          <p className="text-[#505887] text-[19px]">
+            Deoposit funds easily, securlity
+          </p>
         </div>
         <div className=" flex items-center gap-2">
           <div className="w-[24px] h-[24px] bg-[#FDBC64] rounded-full flex justify-center items-center">
