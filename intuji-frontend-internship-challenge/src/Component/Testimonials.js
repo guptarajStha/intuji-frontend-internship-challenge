@@ -8,8 +8,10 @@ const Testimonials = () => {
       <div className="w-[80%] m-auto">
         <div className="flex justify-start items-center">
           <div className="w-[max(50%)] flex flex-col gap-8">
-            <h1 className="text-[71px] font-extrabold">Testimonials</h1>
-            <p className="text-[16px]">
+            <h1 className="text-[30px] sm:text-[45px] md:text-[60px] xl:text-[71px] font-extrabold">
+              Testimonials
+            </h1>
+            <p className="text-[14px] md:text-[16px]">
               We so opinion friends me message as delight. Whole front do of
               plate heard oh ought. His defective nor convinced residence own.
             </p>
@@ -24,18 +26,45 @@ const Testimonials = () => {
               <img src={symbol} alt="" />
             </div>
             <div className="px-2 py-10 flex flex-col gap-4">
-              <h2 className=" font-semibold text-[25px] ">
+              <h2 className=" font-semibold lg:text-[25px] ">
                 Wise busy past both park when an ye no. Nay likely her length
                 sooner thrown sex lively income. The expense windows . Blessing
                 welcomed ladyship.
               </h2>
-              <h2 className="font-semibold text-[20px]">
+              <h2 className="font-semibold lg:text-[20px]">
                 - Mike Taylor, Web Designer
               </h2>
             </div>
-            <img src={girl} alt="" className="w-[30%]" />
+
+            <img
+              src={girl}
+              alt=""
+              className="w-[30%]  md:w-[20%] lg:w-[20%] xl:w-[40%]"
+            />
           </div>
           <div className="xl:w-1/2 bg-white border-[1px]  border-[#CFCFCF] rounded-[10px] relative flex p-4">
+            <div className="w-[57px] h-[57px] rounded-full bg-black flex justify-center items-center absolute -top-7 left-8">
+              <img src={symbol} alt="" />
+            </div>
+            <div className="px-2 py-10 flex flex-col gap-4">
+              <h2 className=" font-semibold lg:text-[25px] ">
+                Wise busy past both park when an ye no. Nay likely her length
+                sooner thrown sex lively income. The expense windows . Blessing
+                welcomed ladyship.
+              </h2>
+              <h2 className="font-semibold lg:text-[20px]">
+                - Mike Taylor, Web Designer
+              </h2>
+            </div>
+
+            <img
+              src={girl}
+              alt=""
+              className="w-[30%]  md:w-[20%] lg:w-[20%] xl:w-[40%]"
+            />
+          </div>
+          
+          {/* <div className="xl:w-1/2 bg-white border-[1px]  border-[#CFCFCF] rounded-[10px] relative flex p-4">
             <div className="w-[57px] h-[57px] rounded-full bg-black flex justify-center items-center absolute -top-7 left-8">
               <img src={symbol} alt="" />
             </div>
@@ -50,7 +79,7 @@ const Testimonials = () => {
               </h2>
             </div>
             <img src={girl} alt="" className="w-[30%]" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
